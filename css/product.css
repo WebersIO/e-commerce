@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    /*  */
+
+}
+
+nav {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;;
+}
+
+nav ul li {
+    padding: 10px 30px;
+    /* border: 1px solid red; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    
+}
+
+nav li a:hover {
+    border-bottom: 3px solid red;
+    font-weight: 500;
+}
+
+.box {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+}
+
+.box1 {
+    min-width: 300px;
+    display: flex;
+    max-width: 600px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.btn {
+    padding: 10px 30px;
+    border: 1px solid red;
+}
+
+.btn:hover {
+    background-color: red;
+    
+}
+
+.btn {
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover{
+    color: white;
+}
+
+.box1 > li {
+    list-style: none;
+    padding: 10px;
+}
+
+.box2 {
+    min-width: 300px;
+    max-width: 600px;
+    /* border: 1px solid red; */
+    overflow-y: hidden;
+    height: 60vh;
+    scroll-behavior: smooth;
+    margin: 2%;
+}
+
+.watch {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.watch > img {
+    width: 80%;
+}
+
+.watch > p {
+    padding: 10%;
+}
